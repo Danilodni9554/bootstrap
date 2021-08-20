@@ -21,8 +21,8 @@
 
 <body>
     <!--NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <a class="navbar-brand" href="#">FanPage</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
             aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
@@ -34,22 +34,22 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#Frases">Frases</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
+                        História
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Ação</a>
-                        <a class="dropdown-item" href="#">Outra ação</a>
+                        <a class="dropdown-item" href="#Bio">Biografia</a>
+                        <a class="dropdown-item" href="#">Carreira</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Algo mais aqui</a>
+                        <a class="dropdown-item" href="#">Curiosidades</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Desativado</a>
+                    <a class="nav-link disabled" href="#Contato">Entre em contato</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -70,16 +70,15 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="https://wallpaper.dog/large/10987385.jpg
-                "
-                    alt="Primeiro Slide">
+                " alt="Primeiro Slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100"
-                    src="https://images.hdqwalls.com/download/michael-jordan-art-1280x720.jpg"
+                <img class="d-block w-100" src="https://images.hdqwalls.com/download/michael-jordan-art-1280x720.jpg"
                     alt="Segundo Slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9RLRubPZt8Yufo4Df1wZyUuK8mQYgeFdb2w&usqp=CAU" alt="Terceiro Slide">
+                <img class="d-block w-100" src="https://i.ytimg.com/vi/JA7G7AV-LT8/maxresdefault.jpg"
+                    alt="Terceiro Slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -93,11 +92,13 @@
     </div>
     <!--/Carousel-->
 
+    <h1 id="Frases"></h1>
+
     <!--Jumbotron-->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid bg-danger text-white">
         <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">Este é um jumbotron modificado que ocupa todo o espaço horizontal de seu elemento pai.</p>
+            <h1 class="display-4">Frases de Michael Jordan . . . </h1>
+            <p class="lead">Abaixo veja algumas das frases dessa lenda do basquete</p>
         </div>
     </div>
     <!--/Jumbotron-->
@@ -109,17 +110,19 @@
             <div class="card">
                 <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
                 <div class="card-body">
-                    <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
-                    <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma
-                        introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+                    <h5 class="card-title">“Quando eu piso na quadra, não tenho que pensar em mais nada...</h5>
+                    <p class="card-text">se tiver um problema fora dela, minha mente fica mais clara depois para
+                        encontrar a melhor solução. É como uma terapia. Entrar em quadra me relaxa e me permite resolver
+                        problemas.”</p>
                 </div>
             </div>
             <div class="card p-3">
                 <blockquote class="blockquote mb-0 card-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <p>“Algumas pessoas gostariam que algo acontecesse. Algumas desejam que aconteça. E outras fazem
+                        acontecer.”</p>
                     <footer class="blockquote-footer">
                         <small class="text-muted">
-                            Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+                            Michael Jordan em <cite title="Título da fonte">Temporada 97/98</cite>
                         </small>
                     </footer>
                 </blockquote>
@@ -127,27 +130,29 @@
             <div class="card">
                 <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
                 <div class="card-body">
-                    <h5 class="card-title">Título do card</h5>
-                    <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a
-                        um conteúdo adicional.</p>
+                    <h5 class="card-title">“Eu jogo para vencer, seja durante o treino ou em uma partida de verdade...
+                    </h5>
+                    <p class="card-text">...e não vou deixar nada entrar no meu caminho e do meu entusiasmo competitivo
+                        para ganhar.”</p>
                     <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
                 </div>
             </div>
             <div class="card bg-primary text-white text-center p-3">
                 <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                    <footer class="blockquote-footer">
+                    <p>“Eu sei que o medo é um obstáculo para algumas pessoas, mas para mim é uma ilusão. O fracasso
+                        sempre me faz tentar ainda mais da próxima vez.”</p>
+                    <footer class="blockquote-footer text-white">
                         <small>
-                            Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+                            Michael Jordan em <cite title="Título da fonte">Temporada 98/99</cite>
                         </small>
                     </footer>
                 </blockquote>
             </div>
             <div class="card text-center">
                 <div class="card-body">
-                    <h5 class="card-title">Título do card</h5>
-                    <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a
-                        um conteúdo adicional.</p>
+                    <h5 class="card-title">“Obstáculos não podem te parar...</h5>
+                    <p class="card-text">Se você topar com uma parede, não vire e desista. Descubra como escalá-la,
+                        passe por ela, trabalhe nisso.”</p>
                     <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
                 </div>
             </div>
@@ -156,20 +161,21 @@
             </div>
             <div class="card p-3 text-right">
                 <blockquote class="blockquote mb-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <p>“Sempre acreditei que os resultados vêm com o trabalho. Não faço as coisas pela metade, pois daí
+                        só poderei esperar resultados pela metade.”</p>
                     <footer class="blockquote-footer">
                         <small class="text-muted">
-                            Alguém famoso em <cite title="Título da fonte">Título da fonte</cite>
+                            Michael Jordan em <cite title="Título da fonte">Temporada 97/98</cite>
                         </small>
                     </footer>
                 </blockquote>
             </div>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Título do card</h5>
-                    <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma
-                        introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para
-                        mostrar a altura igual, em ação.</p>
+                    <h5 class="card-title">“Eu errei mais de 9.000 arremessos na minha carreira...</h5>
+                    <p class="card-text">Perdi quase 300 jogos. Em 26 oportunidades, confiaram em mim para fazer o
+                        arremesso da vitória e eu errei. Eu falhei muitas e muitas vezes na minha vida. E é por isso que
+                        tenho sucesso.”</p>
                     <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
                 </div>
             </div>
@@ -178,10 +184,10 @@
         <!--/Cards-->
 
         <!--Texto e Video-->
-
+        <h1 id="Bio"></h1>
         <div class="row mt-5 mb-5">
             <div class="col-md-6">
-                <h3>Texto teste</h3>
+                <h3>História</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam quo commodi, numquam ab ea ullam
                     quisquam voluptatum enim facere vitae corrupti optio pariatur iusto, at dignissimos eius, quasi
                     earum! Officiis.
@@ -205,6 +211,49 @@
         </div>
 
         <!--/Texto e Video-->
+
+
+        <!--Formulario de contato-->
+        <h1 id="Contato"></h1>
+        <div class="row mb-5">
+            <div class="col-md-12">
+                <h4 class="text-center">
+                    Entre em contato com a gente
+                </h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+
+                <form>
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="nome" onkeyup="validaNome()" placeholder="Seu nome">
+                        <div id= 'txtNome'></div>
+                      </div>
+                    <div class="form-group">
+                      <label for="email">Endereço de email</label>
+                      <input type="email" class="form-control" id="email" onkeyup="validaEmail()" placeholder="nome@exemplo.com">
+                      <div id= 'txtEmail'></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="assunto">Comentário</label>
+                        <textarea class="form-control" id="assunto" rows="3" onkeyup='validaAssunto()'></textarea>
+                        <div id= 'txtAssunto'></div>
+                      </div>
+                      <button type="enviar" class="btn btn-primary mb-2" onclick="enviar()">Enviar</button>
+                      </form>
+
+            </div>
+            <div class="col-md-6">
+                <iframe class="w-100"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0980322469036!2d-46.654126285022166!3d-23.56492238468107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5994f2e15a7d%3A0xdeb92126793e5e90!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1629463279469!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+
+        <!--/Formulario de contato-->
 
         <!--Footer Rodape-->
         <hr>
@@ -252,6 +301,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+
+    <script src="assets/js/script.js"></script>
+
 </body>
 
 </html>
